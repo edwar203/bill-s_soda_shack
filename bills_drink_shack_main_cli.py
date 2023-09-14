@@ -10,8 +10,8 @@ def get_input():
 
 def display():
 #TODO: display total cost for customer
-        num_of_drinks = bills_drinks.num_of_drinks
-        total_sale = bills_drinks.total_sale
+        num_of_drinks = bills_drinks.get_num_drinks()
+        total_sale = bills_drinks.get_total_sale()
         print(f"Number of drinks: {num_of_drinks}")
         print(f"Your total today is ${total_sale:,.2f}")
 
